@@ -1,5 +1,4 @@
 function Paterns (){
-
     const supporterLogos = [
         { id: 1, src: "/parceiro1.png", alt: 'Apoiador 1' },
         { id: 2, src: "/parceiro2.png", alt: 'Apoiador 2' },
@@ -13,18 +12,21 @@ function Paterns (){
             <div class="flex w-11/12 justify-center mx-auto">
                 <div class="w-1/2">
                     <h2 class="font-bold text-3xl">
-                        Porque todos preferem a <span class="text-fuchsia-700">SecuritePay</span>:
+                        Porque todos preferem a &nbsp;
+                        <p class="text-fuchsia-700">
+                            SecuritePay
+                        </p>
                     </h2>
                 </div>
 
                 <div class="w-1/2">
-                    <div className="flex justify-center items-center space-x-8 flex-wrap">
+                    <div class="flex justify-center items-center space-x-8 flex-wrap">
                         {supporterLogos.map((logo) => (
-                        <div key={logo.id} className="p-4">
+                        <div key={logo.id} class="p-4">
                             <img
                             src={logo.src}
                             alt={logo.alt}
-                            className="hover:cursor-pointer max-h-6 opacity-70 hover:opacity-100 transition duration-300 filter grayscale hover:grayscale-0"
+                            class="hover:cursor-pointer max-h-6 opacity-70 hover:opacity-100 transition duration-300 filter grayscale hover:grayscale-0"
                             />
                         </div>
                         ))}
