@@ -5,9 +5,9 @@ function Why (){
     const [benefits, setBenefits] = useState([]);
     useEffect(() => {
         $.ajax({
-            url: "https://api.securitepay.com.br/endpoint/",
+            url: "https://api.securitepay.com.br/endpoint/GET_benefits.php",
             method: 'GET',
-            dataType: 'json', // Espera resposta JSON
+            dataType: 'json', 
             success: function(data) {
                 setBenefits(data);
             },
