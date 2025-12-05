@@ -6,6 +6,16 @@
     font-style: normal;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
 body {
   scrollbar-width: thin;
   scrollbar-color: #A800B7 #FDF4FF;

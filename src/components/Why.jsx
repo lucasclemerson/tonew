@@ -38,9 +38,7 @@ function Why (){
     return (
         <section class="grid justify-center w-full text-center mx-auto py-8">
             <h2 class="text-3xl mb-8">
-                <strong>
                     Porque a <span class="text-fuchsia-700">SecuritePay é diferente</span>?
-                </strong>
             </h2>
             <div id="cardsBenefits" class="w-11/12 mx-auto md:grid gap-3 md:grid-cols-3 justify-center sm:flex sm:overflow-x-scroll sm:snap-x sm:snap-mandatory sm:scroll-smooth sm:pb-4 sm:space-x-4">
                     {benefits.map((benefit) => (

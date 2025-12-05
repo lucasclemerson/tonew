@@ -23,7 +23,7 @@ function Paterns (){
                             <img
                             src={logo.src}
                             alt={logo.alt}
-                            class="hover:cursor-pointer max-h-6 opacity-70 hover:opacity-100 transition duration-300 filter grayscale hover:grayscale-0"
+                            class="hover:cursor-pointer max-h-6"
                             />
                         </div>
                         ))}
