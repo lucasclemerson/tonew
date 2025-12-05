@@ -11,7 +11,7 @@ function Faq (){
     const [faqData, setFaqData] = useState([]);
     useEffect(() => {
         $.ajax({
-            url: "https://api.securitepay.com.br/endpoint/GET_faqs.php",
+            url: "https://api.securitepay.com.br/v1/faqs",
             method: 'GET',
             dataType: 'json', 
             success: function(data) {

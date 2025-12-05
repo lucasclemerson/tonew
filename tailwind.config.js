@@ -1,11 +1,16 @@
 export default {
-  content: [
-    // Adicione estas linhas para que o Tailwind encontre suas classes em 'src'
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  extend: {},
   theme: {
-    extend: {},
+    screens: {
+      xs: '360px',   // 👈 breakpoint personalizado
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+    },
   },
-  plugins: [],
+  content: [
+    "./src/**/*.{html,js,php}",
+    "./*.{html,js,php}"
+  ]
 }
