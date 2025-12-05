@@ -20,7 +20,7 @@ function Why (){
     }, []); 
 
     const Card = ({ title, description, icon }) => (
-        <div class="snap-center sm:w-11/12 min-w-[288px] max-w-[400px]">
+        <div class="mb-3 snap-center sm:w-11/12 min-w-[288px] max-w-[400px]">
             <a disabled={true} target="_self" class="group flex flex-col select-none bg-gray-50 h-full rounded-3xl border-2 border-solid border-gray-200 p-6">
                 <div class="flex items-center justify-between">
                     <div class="size-fit text-3xl text-fuchsia-700 mb-5">

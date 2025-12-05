@@ -28,9 +28,9 @@ function Faq (){
     return (
         <section className="grid sm:grid-cols-1 md:grid-cols-2 relative my-6 mx-auto w-11/12 sm:justify-center md:justify-start py-8">
             <div className="md:sticky left-0 sm:h-auto md:h-0 lg:h-0 top-4 sm:mx-auto md:mx-0 sm:my-9 md:my-0">
-                <div className="grid sm:justify-center justify-start items-center"> 
-                    <h2 className="text-3xl font-bold md:text-start sm:text-center">Ficou alguma dúvida? </h2>
-                    <p className="text-md text-center md:text-start sm:text-center ">Ficou com alguma dúvida sobre os nossos produtos?</p>
+                <div className="grid justify-center sm:justify-start items-center sm:text-center md:text-left gap-3 mb-6"> 
+                    <h2 className="text-3xl font-bold">Ficou alguma dúvida? </h2>
+                    <p className="text-md">Ficou com alguma dúvida sobre os nossos produtos?</p>
                 </div>
             </div>
 

@@ -9,20 +9,17 @@ function Paterns (){
 
     return (
         <section class="py-4">
-            <div class="flex w-11/12 justify-center mx-auto">
-                <div class="w-1/2">
-                    <h2 class="font-bold text-3xl">
-                        Porque todos preferem a &nbsp;
-                        <p class="text-fuchsia-700">
-                            SecuritePay
-                        </p>
+            <div class="md:grid lg:flex gap-3 w-11/12 justify-center mx-auto">
+                <div class="md:w-full lg:w-1/2 mb-5">
+                    <h2 class="font-bold text-3xl sm:text-center md:text-start">
+                        Porque todos preferem a <span class="text-fuchsia-700">SecuritePay</span>
                     </h2>
                 </div>
 
-                <div class="w-1/2">
-                    <div class="flex justify-center items-center space-x-8 flex-wrap">
+                <div class="md:w-full lg:w-1/2">
+                    <div class="flex gap-3 text-center justify-center items-center space-x-8 flex-wrap">
                         {supporterLogos.map((logo) => (
-                        <div key={logo.id} class="p-4">
+                        <div key={logo.id} class="text-center">
                             <img
                             src={logo.src}
                             alt={logo.alt}
