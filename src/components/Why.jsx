@@ -40,7 +40,7 @@ function Why (){
             <h2 class="text-3xl mb-5">
                     Porque a <span class="text-fuchsia-700">SecuritePay é diferente</span>?
             </h2>
-            <div id="cardsBenefits" class="w-11/12 mx-auto lg:grid gap-3 py-12 lg:grid-cols-3 justify-center sm:flex sm:overflow-x-scroll sm:snap-x sm:snap-mandatory sm:scroll-smooth sm:pb-4 sm:space-x-4">
+            <div id="cardsBenefits" class="px-5 w-11/12 mx-auto lg:grid gap-3 py-12 lg:grid-cols-3 justify-center sm:flex sm:overflow-x-scroll sm:snap-x sm:snap-mandatory sm:scroll-smooth sm:pb-4 sm:space-x-4">
                     {benefits.map((benefit) => (
                         <Card 
                             title={benefit.title} 
@@ -49,7 +49,7 @@ function Why (){
                         />
                     ))}
             </div>
-            <div class="mt-3 lg:grid md:hidden">
+            <div class="mt-3 sm:grid md:hidden">
                 <p>
                     Veja mais arrastando os cards
                     <span class="scale-125 rotate-12">

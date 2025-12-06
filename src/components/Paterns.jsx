@@ -42,7 +42,7 @@ function Paterns (){
     const Card = ({ name, position, comment, image }) => (
         <div class="grid w-full border-2 content-between justify-items-stretch 
             border-gray-200 rounded-xl p-3  
-             xs:flex-shrink-1 flex-shrink-0 
+            xs:flex-shrink-1 flex-shrink-0 
             hover:cursor-pointer hover:scale-105 hover:border-fuchsia-700">
             <div class="w-full text-wrap">
                 <p class="sm:text-md md:text-lg mt-2 mb-5 italic">"{comment}"</p>
@@ -95,7 +95,7 @@ function Paterns (){
                 >
                     <ChevronLeft/>
                 </button>
-                <div ref={scrollRef} class="py-12 w-11/12 mx-auto grid grid-flow-col xs:auto-cols-[80%] sm:auto-cols-[50%] md:auto-cols-[30%] lg:auto-cols-[30%] gap-4 overflow-hidden scroll-smooth snap-x snap-mandatory">
+                <div ref={scrollRef} class="px-5 py-12 w-11/12 mx-auto grid grid-flow-col xs:auto-cols-[80%] sm:auto-cols-[50%] md:auto-cols-[30%] lg:auto-cols-[30%] gap-4 overflow-hidden scroll-smooth snap-x snap-mandatory">
                     {commnets.map((commnet) => (
                     <Card 
                         name={commnet.name} 
